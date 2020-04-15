@@ -1,0 +1,111 @@
+body{
+font-family:Arial, Verdana, Sans-serif;
+margin:0;
+}
+header {
+background-color:#569c87;
+width:100%;
+height:10%;
+margin-bottom:4%;
+margin:auto;
+}
+
+header img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:30%;
+}
+main {
+margin-left:9%;
+margin-right:9%;
+}
+.menu{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-between;
+align-items:center;
+align-content:center;
+width:82%;
+}
+.menu_note{
+order:0px;
+flex-grow:1;
+shrink:1;
+flex-basis:auto;
+align-self:stretch;
+width:38%;
+}
+.menu_contenu{
+width:38%;
+height:32%;
+background-color:#fcdeda;
+transition: transform .2s;
+}
+.menu_contenu:hover{
+transform: scale(1.5);
+}
+.fas fa-music {
+font-size:30px;
+background-color: linear-gradient(to right, #f15961, #f78e69);
+}
+.menu_contenu h1{
+color:#3c1217;
+font-size:16px;
+}
+.menu_contenu h2{
+color:#3c1217;
+font-size:23px;
+text-transform:uppercase;
+}
+.prochainement{
+bottom:9%;
+}
+h2{
+display: block;
+width:44%;
+height:5%;
+color: #fcc946;
+text-align:center;
+font-size:67px;
+margin:auto;
+background-color: #569c87;
+border-radius: 15%;
+}
+/* footer */
+footer {
+background-color: #569c87;
+  width:100%;
+  height:6%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+@-webkit-keyframes shake{
+	from{
+		-webkit-transform:rotate(15deg);
+	}
+	to{
+		-webkit-transform:rotate(-15deg);
+		-webkit-transform-origin: center center;
+	  }
+
+footer a {
+text-decoration: none;
+color: #fcc946;
+}
+footer a:hover {
+
+-webkit-animation:shake .1s ease-in-out .1s infinite alternate;
+}
+
+a .mentions {
+text-align: left;
+margin-left:3%;
+}
+a .contact {
+text-align: right;
+margin-right:3%;
+}
