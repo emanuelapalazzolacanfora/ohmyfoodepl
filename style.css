@@ -1,12 +1,13 @@
 body{
 font-family:Arial, Verdana, Sans-serif;
 margin:0;
+width:100%;
+height:2253px;
 }
 header {
 background-color:#569c87;
 width:100%;
-height:10%;
-margin-bottom:4%;
+height:11%;
 margin:auto;
 }
 
@@ -14,65 +15,164 @@ header img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-width:30%;
+padding-top:3%;
+padding-bottom:3%;
+height:50%;
 }
 main {
-margin-left:9%;
-margin-right:9%;
+margin-top:4%;
+width:74%;
+height:89%;
+margin-left:13%;
+margin-right:13%;
 }
 .menu{
+background: #cccccc;
 display: flex;
 flex-direction:row;
 flex-wrap: wrap;
 justify-content:space-between;
 align-items:center;
 align-content:center;
-width:82%;
+width:100%;
+height:85%;
+margin:auto;
 }
-.menu_note{
+.menu_contenu {
+width:46%;
+height:48%;
+text-align:center;
 order:0px;
 flex-grow:1;
-shrink:1;
+flex-shrink:1;
 flex-basis:auto;
 align-self:stretch;
-width:38%;
+overflow: hidden;
+-webkit-box-shadow: 0px 0px 17px #e0e0e0;
+-moz-box-shadow: 0px 0px 17px #e0e0e0;
+box-shadow: 0px 0px 17px #e0e0e0;
 }
-.menu_contenu{
-width:38%;
-height:32%;
+.menu_contenu--bas{
+margin-top:4%;
+}
+.menu_contenu--gauche{
+margin-right:4%;
+}
+.menu_contenu--droit{
+margin-left:4%;
+}
+.menu_contenu--note{
+width:100%;
+height:100%;
 background-color:#fcdeda;
-transition: transform .2s;
+transform: scale(1);
+transition: transform 400ms ease-in-out;
+opacity: 1;
 }
-.menu_contenu:hover{
+.menu_contenu--note:hover{
 transform: scale(1.5);
+opacity: 0.5;
 }
-.fas fa-music {
-font-size:30px;
-background-color: linear-gradient(to right, #f15961, #f78e69);
-}
-.menu_contenu h1{
+.menu_contenu--note h1{
+font-family: 'Zhi Mang Xing', cursive;
 color:#3c1217;
 font-size:16px;
 }
-.menu_contenu h2{
+.menu_contenu--note h2{
+font-family: Segoe Print;
+color:#3c1217;
+font-size:23px;
+text-transform:uppercase;
+}
+.menu_contenu--chic{
+width:100%;
+height:100%;
+background-color:#fff5fe;
+transform: scale(1);
+transition: transform 400ms ease-in-out;
+opacity: 1;
+}
+.menu_contenu--chic:hover{
+transform: scale(1.5);
+opacity: 0.5;
+}
+.menu_contenu--chic h1{
+padding-top:19%;
+font-family: 'Croissant One', cursive;
+color:#3c1217;
+font-size:16px;
+}
+.menu_contenu--chic h2{
+font-family: Time New Roman;
+color:#3c1217;
+font-size:23px;
+text-transform:uppercase;
+}
+.menu_contenu--delice{
+width:100%;
+height:100%;
+background-color:#f9f9f9;
+transform: scale(1);
+transition: transform 400ms ease-in-out;
+opacity: 1;
+}
+.menu_contenu--delice:hover{
+transform: scale(1.5);
+opacity: 0.5;
+}
+.menu_contenu--delice h1{
+padding-top:19%;
+font-family: 'Dancing Script', cursive;
+color:#3c1217;
+font-size:16px;
+}
+.menu_contenu--delice h2{
+font-family: Segoe Print;
+color:#3c1217;
+font-size:23px;
+text-transform:uppercase;
+}
+.menu_contenu--palette{
+width:100%;
+height:100%;
+background-color:#fdfffd;
+transform: scale(1);
+transition: transform 400ms ease-in-out;
+}
+.menu_contenu--palette:hover{
+transform: scale(1.5);
+}
+.menu_contenu--palette h1{
+padding-top:19%;
+font-family: 'Kaushan Script', cursive;
+color:#3c1217;
+font-size:16px;
+}
+.menu_contenu--palette h2{
+font-family: Segoe Print;
 color:#3c1217;
 font-size:23px;
 text-transform:uppercase;
 }
 .prochainement{
-bottom:9%;
-}
-h2{
-display: block;
-width:44%;
-height:5%;
-color: #fcc946;
 text-align:center;
-font-size:67px;
-margin:auto;
-background-color: #569c87;
-border-radius: 15%;
 }
+.prochainement h2 {
+border-radius: 10rem;
+text-align:center;
+color: #fcc946;
+background-color:#569c87;
+height:6%;
+widt:41%;
+margin-left:28%;
+margin-right:28%;
+}
+.prochainement span {
+font-size:23px;
+text-align:center;
+color: #fcc946;
+}
+
 /* footer */
 footer {
 background-color: #569c87;
@@ -82,30 +182,34 @@ background-color: #569c87;
     left: 0;
     bottom: 0;
 }
-
-@-webkit-keyframes shake{
+@keyframes shake {
 	from{
-		-webkit-transform:rotate(15deg);
+		transform: translateX(1);
 	}
 	to{
-		-webkit-transform:rotate(-15deg);
-		-webkit-transform-origin: center center;
-	  }
+		transform: translateX(.4);
+transform-origin: left center;
 
+	  }
+}
 footer a {
+font-size:1.5em;
 text-decoration: none;
 color: #fcc946;
 }
-footer a:hover {
-
--webkit-animation:shake .1s ease-in-out .1s infinite alternate;
-}
-
-a .mentions {
+.contact {
+float:left;
+width:27%;
 text-align: left;
-margin-left:3%;
+margin-left:2%;
+padding-top:1%;
+animation:shake .100ms ease-in-out 100ms infinite alternate;
 }
-a .contact {
+
+.mentions {
+width:26%;
 text-align: right;
-margin-right:3%;
+margin-left: 70%;
+padding-top:1%;
+animation:shake .1s ease-in-out .1s infinite alternate;
 }

@@ -1,21 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-    <head>
-       <meta charset="UTF-8">
-		<meta name="description" content="Un site qui permet de réserver en coposant votre menu, grâce à son répertoir des plus grands restaurants new-yorkais. Finis, les temps d'attente au restaurant !">
-		<meta name="keywords" content="ohmyfood,répertoire réstaurants,restaurant new-yorkais">
+	<head>
+		<title>Ohmyfood</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Ohmyfood" />
+
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" content="summary">
 
 		<!-- Open Graph data -->
-		<meta property="og:title" content="ohmyfood"/>
+		<meta property="og:title" content="Ohmyfood"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.ohmyfood.com/"/>
 		<meta property="og:image" content="https://user.oc-static.com/upload/2019/10/23/15718411148892_Logo-ohmyfood.png"/>
-		<meta property="og:description" content="Un site qui permet de réserver en coposant votre menu, grâce à son répertoir des plus grands restaurants new-yorkais. Finis, les temps d'attente au restaurant !"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ohmyfood</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta property="og:description" content="Site ohmyfood"/>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/9376b337f5.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
@@ -24,21 +30,53 @@
 		</header>
 		<main>
 			<section class="menu">
-				<div class="menu_note">
-					<div class="menu_contenu">
-						<i class="fas fa-music"></i>
-						<h1>La note enchantée</h1>
-						<h2>Menu</h2>
-					</div>
+				<div class="menu_contenu menu_contenu--gauche">
+					<a href="/menu_la_note_enchantee.html" >
+						<div class="menu_contenu--note">
+							<p>
+								<i class="fas fa-music"></i>
+							</p>
+							<h1>La note enchantée</h1>
+							<h2>Menu</h2>
+						</div>
+					</a>
+				</div>
+				<div class="menu_contenu menu_contenu--droit">
+					<a href="/menu_le_chic_a_la_francaise.html" >
+						<div class="menu_contenu--chic">
+							<h1>Le chic à la française</h1>
+							<h2>Menu</h2>
+						</div>
+					</a>
+				</div>
+				<div class="menu_contenu menu_contenu--bas menu_contenu--gauche">
+					<a href="/menu_le_delice_des_papilles.html" >
+						<div class="menu_contenu--delice">
+							<h1>Le délice des papilles</h1>
+							<h2>Menu</h2>
+						</div>
+					</a>
+				</div>
+				<div class="menu_contenu menu_contenu--bas menu_contenu--droit">
+					<a href="/menu_la_palette_du_gout.html" >
+						<div class="menu_contenu--palette">
+							<h1>La palette du goût</h1>
+							<h2>Menu</h2>
+						</div>
+					</a>
 				</div>
 			</section>
 			<section class="prochainement">
-				<h2>prochainement</h2>
-				<div class="point"><span class="point_1"><i class="fas fa-circle"></i></span><span class="point_2"><i class="fas fa-circle"></i></span><span class="point_3"><i class="fas fa-circle"></i></span></div>
+				<h2>Prochainement 
+					<span class="dot_1"><i class="fas fa-circle"></i></span>
+					<span class="dot_2"><i class="fas fa-circle"></i></span>
+					<span class="dot_3"><i class="fas fa-circle"></i></span>
+				</h2>
 			</section>
-		</main>					                                                                 
+		</main>
 		<footer>
-			<a class="contact" href="mailto:nom@gmail.com">Contactez-nous</a><a class="mentions" href="/mentions-legales.html" target="_blank">Mentions légales</a>
+			<div class="contact">
+				<a href="mailto:nom@gmail.com">Contactez-nous</a></div><div class="mentions"><a href="/mentions-legales.html" target="_blank">Mentions légales</a></div>
         </footer>
     </body>
 </html>
