@@ -132,12 +132,12 @@ background: linear-gradient(to right, #d1823f 0%, #9661ff 100%);
 -webkit-text-fill-color: transparent;
 color:#3c1217;
 font-family: 'Croissant One', cursive;
-font-size:35px;
+font-size:2.1875em;
 }
 .menu_contenu--chic h3{
 color:#d1823f;
 font-family: Time New Roman;
-font-size:60px;
+font-size:4.1875em;
 text-transform:uppercase;
 }
 .menu_contenu--delice{
