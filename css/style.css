@@ -91,7 +91,7 @@ transform: scale(1.5);
 opacity: 0.5;
 }
 .menu_contenu--note i{
-background: linear-gradient(to right, #f05a60 0%, #f78e69 100%);
+background: linear-gradient(to right, #f05261 0%, #f6916a 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size:60px;
@@ -100,12 +100,12 @@ font-size:60px;
 margin:0;
 color:#3c1217;
 font-family: 'Devonshire', cursive;
-font-size:35px;
+font-size:2.875em;
 }
 .menu_contenu--note h3{
 color:#3c1217;
 font-family: Segoe Print;
-font-size:60px;
+font-size:3.625em;
 text-transform:uppercase;
 }
 .menu_contenu--chic{
