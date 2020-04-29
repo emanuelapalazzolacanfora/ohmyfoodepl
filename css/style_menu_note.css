@@ -66,12 +66,12 @@ margin:auto;
 background: linear-gradient(to right, #f05a60 0%, #f78e69 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-size:122px;
+font-size:7.625rem;
 text-align:center;
 }
 .menu h2{
 font-family: 'Devonshire', cursive;
-font-size:72px;
+font-size:4.5rem;
 }
 .menu_titre{
 display: -webkit-flex;
@@ -188,7 +188,7 @@ font-size:60px;
 .menu_footer i{
 margin:auto;
 margin-right:23px;
-font-size:65px;
+font-size:4.0625rem;
 text-align:center;
 background: linear-gradient(to right, #f05a60 0%, #f78e69 100%);
 -webkit-background-clip: text;
@@ -271,6 +271,9 @@ font-size:16px;
 .menu_prix p{
 padding-bottom:100%;
 }
+.menu_footer i{
+font-size:2rem;
+}
 footer a {
 color: #fcc946;
 font-family: 'Roboto', sans-serif;
@@ -287,6 +290,9 @@ font-size:2.9rem;
 }
 h2{
 font-size:2.0rem;
+}
+.menu i{
+font-size:3.14rem;
 }
 .menu h2{
 font-size:1.9rem;
@@ -308,6 +314,9 @@ font-size:16px;
 }
 .menu_prix p{
 padding-bottom:100%;
+}
+.menu_footer i{
+font-size:2rem;
 }
 footer a {
 color: #fcc946;
@@ -326,6 +335,9 @@ font-size:2.9rem;
 h2{
 font-size:2.0rem;
 }
+.menu i{
+font-size:3.14rem;
+}
 .menu h2{
 font-size:1.9rem;
 }
@@ -346,6 +358,9 @@ font-size:16px;
 }
 .menu_prix p{
 padding-bottom:100%;
+}
+.menu_footer i{
+font-size:2rem;
 }
 footer a {
 color: #fcc946;
