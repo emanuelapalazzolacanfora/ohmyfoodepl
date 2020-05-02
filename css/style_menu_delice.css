@@ -223,9 +223,14 @@ text-align: right;
 animation:shake .1s ease-in-out .1s infinite alternate;
 }
 /* Media queries */
+@media screen and (max-width: 1231px) {
+h3{
+font-size:1.8rem;
+}
+}
 @media screen and (max-width: 991px) {
 body{
-height:auto;
+height:1579px;
 }
 header h1{
 font-size:2.9rem;
@@ -257,7 +262,7 @@ font-size:16px;
 }
 @media screen and (max-width: 625px) {
 body{
-height:auto;
+height:996px;
 }
 header h1{
 font-size:2.9rem;
@@ -289,7 +294,7 @@ font-size:16px;
 }
 @media screen and (max-width: 479px) {
 body{
-height:auto;
+height:763px;
 }
 header h1{
 font-size:2.9rem;
@@ -321,7 +326,7 @@ font-size:16px;
 }
 @media screen and (max-width: 436px) {
 body{
-height:auto;
+height:694px;
 }
 header h1{
 font-size:2.9rem;
@@ -347,7 +352,38 @@ font-size:16px;
 .menu_description--prix	{
 font-size:14px;
 }
-
+footer a {
+font-size:16px;
+}
+}
+@media screen and (max-width: 402px) {
+body{
+height:694px;
+}
+header h1{
+font-size:2.9rem;
+}
+h2{
+font-size:2.0rem;
+}
+.menu h2{
+font-size:1.9rem;
+}
+h3{
+font-size:14px;
+}
+.menu_titre--g{
+width:15%;
+}
+.menu_titre--d{
+width:15%;
+}
+section{
+font-size:16px;
+}
+.menu_description--prix	{
+font-size:14px;
+}
 footer a {
 font-size:16px;
 }

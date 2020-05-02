@@ -232,7 +232,7 @@ animation:shake .1s ease-in-out .1s infinite alternate;
 /* Media queries */
 @media screen and (max-width: 991px) {
 body{
-height:auto;
+height:1579px;
 }
 header h1{
 font-size:2.9rem;
@@ -264,7 +264,7 @@ font-size:16px;
 }
 @media screen and (max-width: 625px) {
 body{
-height:auto;
+height:996px;
 }
 header h1{
 font-size:2.9rem;
@@ -296,7 +296,7 @@ font-size:16px;
 }
 @media screen and (max-width: 479px) {
 body{
-height:auto;
+height:763px;
 }
 header h1{
 font-size:2.9rem;
@@ -328,7 +328,7 @@ font-size:16px;
 }
 @media screen and (max-width: 436px) {
 body{
-height:auto;
+height:694px;
 }
 header h1{
 font-size:2.9rem;
