@@ -229,6 +229,7 @@ text-align: right;
 .mentions:hover{
 animation:shake .1s ease-in-out .1s infinite alternate;
 }
+/* Media queries */
 @media screen and (max-width: 991px) {
 body{
 height:auto;
@@ -238,9 +239,6 @@ font-size:2.9rem;
 }
 h2{
 font-size:2.0rem;
-}
-.menu i{
-font-size:3.14rem;
 }
 .menu h2{
 font-size:1.9rem;
@@ -260,12 +258,6 @@ font-size:16px;
 .menu_description--prix{
 font-size:16px;
 }
-.menu_footer{
-font-size:1.8rem;
-}
-.menu_footer i{
-font-size:2rem;
-}
 footer a {
 font-size:16px;
 }
@@ -279,9 +271,6 @@ font-size:2.9rem;
 }
 h2{
 font-size:2.0rem;
-}
-.menu i{
-font-size:3.14rem;
 }
 .menu h2{
 font-size:1.9rem;
@@ -300,12 +289,6 @@ font-size:16px;
 }
 .menu_description--prix	{
 font-size:16px;
-}
-.menu_footer{
-font-size:1.8rem;
-}
-.menu_footer i{
-font-size:2rem;
 }
 footer a {
 font-size:16px;
@@ -339,12 +322,6 @@ font-size:16px;
 .menu_description--prix	{
 font-size:16px;
 }
-.menu_footer{
-font-size:1.8rem;
-}
-.menu_footer i{
-font-size:2rem;
-}
 footer a {
 font-size:16px;
 }
@@ -376,12 +353,6 @@ font-size:16px;
 }
 .menu_description--prix	{
 font-size:14px;
-}
-.menu_footer{
-font-size:16px;
-}
-.menu_footer i{
-font-size:2rem;
 }
 footer a {
 font-size:16px;
