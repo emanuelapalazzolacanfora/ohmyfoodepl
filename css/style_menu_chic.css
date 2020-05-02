@@ -72,6 +72,7 @@ background: linear-gradient(to right, #d1823f 0%, #9661ff 100%);
 section						{
 							margin:auto;	
 							font-size:1.5rem;
+							padding-bottom:5%;
 							}
 .orange{
 color:#c67412;
