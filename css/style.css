@@ -383,6 +383,9 @@ body{
 width:100%;
 height:1221px;
 }
+header h1{
+font-size:4rem;
+}
 .menu_contenu--note i{
 font-size:2.3rem;
 }
@@ -410,11 +413,20 @@ font-size:1.1rem;
 .menu_contenu--palette h3{
 font-size:1.8rem;
 }
+.prochainement h2 {
+font-size:2.5rem;
+}
+.prochainement i {; 
+font-size: 11px;
+}
 }
 @media screen and (max-width: 609px) {
 body{
 width:100%;
 height:1221px;
+}
+header h1{
+font-size:2.9rem;
 }
 .menu_contenu--note i{
 font-size:1.8rem;
@@ -433,6 +445,42 @@ font-size:16px;
 }
 .menu_contenu--delice h2{
 font-size:14px;
+}
+.menu_contenu--delice h3{
+font-size:16px;
+}
+.menu_contenu--palette h2{
+font-size:14px;
+}
+.menu_contenu--palette h3{
+font-size:16px;
+}
+}
+@media screen and (max-width: 462px) {
+body{
+width:100%;
+height:1221px;
+}
+header h1{
+font-size:2.9rem;
+}
+.menu_contenu--note i{
+font-size:1.8rem;
+}
+.menu_contenu--note h2{
+font-size:16px;
+}
+.menu_contenu--note h3{
+font-size:16px;
+}
+.menu_contenu--chic h2{
+font-size:14px;
+}
+.menu_contenu--chic h3{
+font-size:16px;
+}
+.menu_contenu--delice h2{
+font-size:16px;
 }
 .menu_contenu--delice h3{
 font-size:16px;
