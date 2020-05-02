@@ -244,7 +244,7 @@ text-align: right;
 .mentions:hover{
 animation:shake .1s ease-in-out .1s infinite alternate;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 436px) {
 body{
 height:auto;
 }
