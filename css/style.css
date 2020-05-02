@@ -312,7 +312,76 @@ font-size:2.7rem;
 font-size:3.125rem;
 }
 }
-@media screen and (max-width: 636px) {
+@media screen and (min-width: 801px) {
+body{
+height:auto;
+}
+header h1{
+font-size:2.9rem;
+}
+main {
+width:78%;
+height:auto;
+margin-bottom:30px;
+padding-top:4%;
+padding-right:11%;
+padding-left:11%;
+}
+.menu_contenu {
+width:288px;
+height:410px;
+}
+
+.menu_contenu--note i{
+font-size:2.3rem;
+}
+.menu_contenu--note h2{
+font-size:1.8rem;
+}
+.menu_contenu--note h3{
+font-size:1.8rem;
+}
+.menu_contenu--chic h2{
+font-size:1rem;
+}
+.menu_contenu--chic h3{
+font-size:1.8rem;
+}
+.menu_contenu--delice h2{
+font-size:1.1rem;
+}
+.menu_contenu--delice h3{
+font-size:1.8rem;
+}
+.menu_contenu--palette h2{
+font-size:1.1rem;
+}
+.menu_contenu--palette h3{
+font-size:1.8rem;
+}
+.prochainement{
+text-align:center;
+height:30px;
+margin-top:30px;
+margin-bottom:80px;
+}
+.prochainement h2 {
+width:200px;
+font-size:1.8rem;
+}
+.prochainement i {
+ overflow: hidden;    
+color: #fcc946; 
+font-size: 7px;
+}
+footer a {
+color: #fcc946;
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+text-decoration: none;
+}
+}
+@media screen and (min-width: 453px) {
 body{
 height:auto;
 }
