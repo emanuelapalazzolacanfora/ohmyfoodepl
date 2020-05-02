@@ -229,6 +229,88 @@ text-align: right;
 .mentions:hover{
 animation:shake .1s ease-in-out .1s infinite alternate;
 }
+@media screen and (max-width: 991px) {
+body{
+height:auto;
+}
+header h1{
+font-size:2.9rem;
+}
+h2{
+font-size:2.0rem;
+}
+.menu i{
+font-size:3.14rem;
+}
+.menu h2{
+font-size:1.9rem;
+}
+h3{
+font-size:1rem;
+}
+.menu_titre--g{
+width:15%;
+}
+.menu_titre--d{
+width:15%;
+}
+section{
+font-size:16px;
+}
+.menu_description--prix{
+font-size:16px;
+}
+.menu_footer{
+font-size:1.8rem;
+}
+.menu_footer i{
+font-size:2rem;
+}
+footer a {
+font-size:16px;
+}
+}
+@media screen and (max-width: 625px) {
+body{
+height:auto;
+}
+header h1{
+font-size:2.9rem;
+}
+h2{
+font-size:2.0rem;
+}
+.menu i{
+font-size:3.14rem;
+}
+.menu h2{
+font-size:1.9rem;
+}
+h3{
+font-size:1rem;
+}
+.menu_titre--g{
+width:15%;
+}
+.menu_titre--d{
+width:15%;
+}
+section{
+font-size:16px;
+}
+.menu_description--prix	{
+font-size:16px;
+}
+.menu_footer{
+font-size:1.8rem;
+}
+.menu_footer i{
+font-size:2rem;
+}
+footer a {
+font-size:16px;
+}
+}
 @media screen and (max-width: 479px) {
 body{
 height:auto;
@@ -254,20 +336,20 @@ width:15%;
 section{
 font-size:16px;
 }
-.menu_prix{
+.menu_description--prix	{
 font-size:16px;
 }
-.menu_prix p{
-padding-bottom:100%;
+.menu_footer{
+font-size:1.8rem;
+}
+.menu_footer i{
+font-size:2rem;
 }
 footer a {
-color: #fcc946;
-font-family: 'Roboto', sans-serif;
 font-size:16px;
-text-decoration: none;
 }
 }
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 436px) {
 body{
 height:auto;
 }
@@ -292,54 +374,16 @@ width:15%;
 section{
 font-size:16px;
 }
-.menu_prix{
+.menu_description--prix	{
+font-size:14px;
+}
+.menu_footer{
 font-size:16px;
 }
-.menu_prix p{
-padding-bottom:100%;
+.menu_footer i{
+font-size:2rem;
 }
 footer a {
-color: #fcc946;
-font-family: 'Roboto', sans-serif;
 font-size:16px;
-text-decoration: none;
-}
-}
-@media screen and (max-width: 991px) {
-body{
-height:auto;
-}
-header h1{
-font-size:2.9rem;
-}
-h2{
-font-size:2.0rem;
-}
-.menu h2{
-font-size:1.9rem;
-}
-h3{
-font-size:1rem;
-}
-.menu_titre--g{
-width:15%;
-}
-.menu_titre--d{
-width:15%;
-}
-section{
-font-size:16px;
-}
-.menu_prix{
-font-size:16px;
-}
-.menu_prix p{
-padding-bottom:100%;
-}
-footer a {
-color: #fcc946;
-font-family: 'Roboto', sans-serif;
-font-size:16px;
-text-decoration: none;
 }
 }
