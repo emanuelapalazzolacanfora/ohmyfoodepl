@@ -381,6 +381,11 @@ font-size:1.9rem;
 h3{
 font-size:14px;
 }
+/*effect-underline*/
+a.soulignement:after {
+  height: 0.8em;
+  margin-top: 10px;
+}
 .menu_titre--g{
 width:15%;
 }
