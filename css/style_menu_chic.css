@@ -154,6 +154,7 @@ align-self:auto;
 							display: -webkit-flex;
 							display: flex;
 							margin:auto;	
+							magin-top:2%;
 							text-align:left;
 							flex-direction:row;
 							flex-wrap: nowrap;
@@ -171,7 +172,6 @@ align-self:auto;
 							margin:0;
 							margin-top:0;
 							margin-right:0;
-							padding-top:1%;
 							font-size:2.1875rem;
 							font-weight:bold;	
 							text-align:right;
@@ -181,10 +181,6 @@ align-self:auto;
 							margin-right:0;
 							text-align:left;	
 }
-
-p							{
-							margin-top:2%;;
-							}
 
 /* footer */
 footer {
