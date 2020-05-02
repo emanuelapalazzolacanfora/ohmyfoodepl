@@ -327,6 +327,10 @@ padding-top:4%;
 padding-right:11%;
 padding-left:11%;
 }
+.menu{
+width:580px;
+height:839px;
+}
 .menu_contenu {
 width:288px;
 height:410px;
@@ -395,6 +399,10 @@ margin-bottom:30px;
 padding-top:4%;
 padding-right:11%;
 padding-left:11%;
+}
+.menu{
+width:444px;
+height:650px;
 }
 .menu_contenu {
 width:221px;
