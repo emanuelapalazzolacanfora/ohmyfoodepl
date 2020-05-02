@@ -154,7 +154,7 @@ align-self:auto;
 							display: -webkit-flex;
 							display: flex;
 							margin:auto;	
-							magin-top:2%;
+							margin-top:2%;
 							text-align:left;
 							flex-direction:row;
 							flex-wrap: nowrap;
@@ -164,7 +164,9 @@ align-self:auto;
 							}
 .menu_description--plat		{
 							width:80%;
+							margin-top:0;
 							margin-right:0;
+							margin-bottom:0;
 							text-align:left;	
 							}
 .menu_description--prix		{
