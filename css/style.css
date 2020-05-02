@@ -300,6 +300,33 @@ body{
 width:100%;
 height:1221px;
 }
+.menu_contenu--note i{
+font-size:2.3rem;
+}
+.menu_contenu--note h2{
+font-size:1.5rem;
+}
+.menu_contenu--note h3{
+font-size:1.8rem;
+}
+.menu_contenu--chic h2{
+font-size:14px;
+}
+.menu_contenu--chic h3{
+font-size:1.8rem;
+}
+.menu_contenu--delice h2{
+font-size:1.1rem;
+}
+.menu_contenu--delice h3{
+font-size:1.8rem;
+}
+.menu_contenu--palette h2{
+font-size:1.1rem;
+}
+.menu_contenu--palette h3{
+font-size:1.8rem;
+}
 }
 @media screen and (max-width: 452px) {
 body{
