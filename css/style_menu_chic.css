@@ -177,7 +177,9 @@ align-self:auto;
 							text-align:right;
 							}
 .menu_description--dessert{
-width:100%;
+							width:100%;
+							margin-right:0;
+							text-align:left;	
 }
 
 p							{
