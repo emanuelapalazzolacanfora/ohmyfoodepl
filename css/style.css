@@ -283,6 +283,28 @@ text-align: right;
 animation:shake .1s ease-in-out .1s infinite alternate;
 }
 /* Media queries */
+@media screen and (max-width: 768px) {
+body{
+height:auto;
+}
+header h1{
+font-size:2.9rem;
+}
+main {
+width:78%;
+height:auto;
+margin-bottom:30px;
+padding-top:4%;
+padding-right:11%;
+padding-left:11%;
+}
+.menu{
+height:50%;
+}
+.prochainement h2 {
+font-size:2.75rem;
+}
+}
 @media screen and (max-width: 636px) {
 body{
 height:auto;
