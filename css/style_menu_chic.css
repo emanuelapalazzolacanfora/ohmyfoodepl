@@ -383,7 +383,7 @@ font-size:14px;
 }
 /*effect-underline*/
 a.soulignement:after {
-  height: 0.8em;
+  height: 0.5em;
   margin-top: 10px;
 }
 .menu_titre--g{
