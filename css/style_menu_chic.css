@@ -410,7 +410,7 @@ footer a {
 				font-size:16px;
 	}
 }
-@media screen and (max-width: 252px) {
+@media screen and (max-width: 382px) {
 	body{
 				height:694px;
 	}
@@ -440,7 +440,11 @@ footer a {
 	section{
 				font-size:16px;
 	}
+	.menu_description--plat	{
+				width:60%;
+	}
 	.menu_description--prix	{
+				width:40%;
 				font-size:14px;
 	}
 	footer a {

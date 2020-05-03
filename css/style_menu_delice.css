@@ -397,7 +397,7 @@ footer a {
 				font-size:16px;
 	}
 }
-@media screen and (max-width: 252px) {
+@media screen and (max-width: 382px) {
 	body{
 				height:694px;
 	}
@@ -411,7 +411,7 @@ footer a {
 				font-size:1.9rem;
 	}
 	h3{
-				font-size:14px;
+				font-size:1rem;
 	}
 /*effect-underline*/
 	a.soulignement:after {
@@ -427,7 +427,11 @@ footer a {
 	section{
 				font-size:16px;
 	}
+	.menu_description--plat	{
+				width:60%;
+	}
 	.menu_description--prix	{
+				width:40%;
 				font-size:14px;
 	}
 	footer a {
