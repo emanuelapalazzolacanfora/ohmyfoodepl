@@ -463,6 +463,12 @@ footer a {
 	.menu_contenu--palette h3{
 				font-size:16px;
 	}
+		.prochainement h2 {
+				font-size:2.5rem;
+	}
+	.prochainement i { 
+				font-size: 11px;
+	}
 }
 @media screen and (max-width: 569px) {
 	body{
@@ -499,6 +505,12 @@ footer a {
 	.menu_contenu--palette h3{
 				font-size:16px;
 	}
+		.prochainement h2 {
+				font-size:2.5rem;
+	}
+	.prochainement i { 
+				font-size: 11px;
+	}
 }
 @media screen and (max-width: 462px) {
 	body{
@@ -534,6 +546,12 @@ footer a {
 	}
 	.menu_contenu--palette h3{
 				font-size:16px;
+	}
+		.prochainement h2 {
+				font-size:2.5rem;
+	}
+	.prochainement i { 
+				font-size: 11px;
 	}
 }
 @media screen and (max-width: 452px) {
