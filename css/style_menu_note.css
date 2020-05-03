@@ -422,21 +422,24 @@ footer a {
 				font-size:16px;
 	}
 }
-@media screen and (max-width: 436px) {
+@media screen and (max-width: 252px) {
 	body{
 				height:694px;
 	}
 	header h1{
-				font-size:2.9rem;
+				font-size:2.0rem;
 	}
 	h2{
 				font-size:2.0rem;
+	}
+	.menu i{
+				font-size:3.14rem;
 	}
 	.menu h2{
 				font-size:1.9rem;
 	}
 	h3{
-				font-size:0.5rem;
+				font-size:1rem;
 	}
 /*effect-underline*/
 	a.soulignement:after {
@@ -453,7 +456,13 @@ footer a {
 				font-size:16px;
 	}
 	.menu_description--prix	{
-				font-size:0.5rem;
+				font-size:14px;
+	}
+	.menu_footer{
+				font-size:16px;
+	}
+	.menu_footer i{
+				font-size:2rem;
 	}
 	footer a {
 				font-size:16px;
