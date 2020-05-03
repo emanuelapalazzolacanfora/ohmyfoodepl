@@ -823,7 +823,7 @@ footer a {
 				font-size:0.5rem;
 	}
 }
-@media screen and (max-width: 81px) {
+@media screen and (max-width: 220px) {
 	body{
 				width:100%;
 				height:auto;
