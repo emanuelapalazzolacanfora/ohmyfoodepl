@@ -823,16 +823,10 @@ footer a {
 				font-size:0.5rem;
 	}
 }
-@media screen and (max-width: 225px) {
+@media screen and (max-width: 81px) {
 	body{
 				width:100%;
 				height:auto;
-	}
-	header {
-				width:200%;
-				height:10%;
-				margin:auto;
-				background-color:#569c87;
 	}
 	header h1{
 				font-size:0.6rem;
@@ -918,4 +912,3 @@ footer a {
 				font-size:0.5rem;
 	}
 }
-
